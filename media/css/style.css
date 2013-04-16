@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'Conv_Lobster';
+    src: url('/media/fonts/Lobster.eot');
+    src: local('☺'), url('/media/fonts/Lobster.woff') format('woff'), url('/media/fonts/Lobster.ttf') format('truetype'), url('/media/fonts/Lobster.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted grey;
+}
+
+.header {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: #008200;
+}
+
+.logo_block {
+    left: 3px;
+    top: 3px;
+    position: relative;
+    width: 180px;
+    /*min-height: 180px;*/
+    border: 5px solid #3683b7;
+    z-index: 100;
+    overflow: hidden;
+    box-shadow: 2px 2px 9px grey;
+}
+
+.header .top_menu {
+    position: absolute;
+}
+
+.header .top_menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header2 {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: #69B35E;
+    padding-top: 10px;
+}
+
+.header2 .wigets {
+    width: 900px;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.wigets .wiget {
+    width: 120px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: #F1FFE6;
+    padding: 5px;
+    position: relative;
+    border: 2px solid #008200;
+    float: left;
+    margin-right: 15px;
+}
+
+.wiget_name {
+    font-size: 10px;
+    padding: 4px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #74E8F8;;
+    border: 1px solid grey;
+    border-radius: 7px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px grey;
+}
+
+.wiget .depth {
+    color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    font-family: Conv_Lobster;
+    font-size: 35px;
+
+}
+
+.wiget .water_name {
+    position: absolute;
+    bottom: 3px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.m1 {
+    background-image: url("/media/img/prozrak/prozrak1m_.jpg");
+}
+
+.m2 {
+    background-image: url("/media/img/prozrak/prozrak2m_.jpg");
+}
+
+.m3 {
+    background-image: url("/media/img/prozrak/prozrak3m_.jpg");
+}
+
+.m4 {
+    background-image: url("/media/img/prozrak/prozrak3m_.jpg");
+}
+
+.m5 {
+    background-image: url("/media/img/prozrak/prozrak4m_.jpg");
+}
+
+.m_all {
+    background-image: url("/media/img/prozrak/prozrak_all.jpg");
+}
+
+.header2 .user_menu {
+    text-align: right;
+    width: 900px;
+    height: 40px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.label {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: conv_lobster;
+    font-size: 60px;
+    float: left;
+    display: block;
+    margin: auto;
+    border-bottom: 1px dotted #808080;
+    color: #424242;
+}
+
+.label .icon {
+    position: absolute;
+    left: 20px;
+    bottom: 3px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.header2 .user_menu a {
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: #F1F1F1;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+    height: 19px;
+    background-color: #3687B4;
+    border: 1px solid #447A6E;
+    float: right;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.content {
+    box-shadow: 0px 0px 10px 4px #BCBCBC;
+    width: 900px;
+    margin: auto;
+    border: 1px solid #B4B4B4;
+    border-top: none;
+    background-color: #ffffff;
+    min-height: 900px;
+}
+
+.left_menu {
+    float: left;
+    display: block;
+    /*border: 1px solid grey;*/
+    width: 180px;
+    padding: 5px;
+    clear: both;
+    border-bottom: 1px dotted grey;
+}
+
+.left_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left_menu ul li {
+    display: block;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.left_menu ul li span {
+    float: right;
+    background-color: #E4F3E4;
+    min-width: 20px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+}
+
+.left_menu ul li:hover {
+    background-color: #f1ffe6;
+}
+
+.left_menu ul li a {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 12px;
+    color: #00262f;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.content .content_td {
+    padding: 10px;
+    min-height: 700px;
+    float: right;
+    width: 689px;
+    border-left: 1px dotted grey;
+}
+
+.content .content_header {
+    width: 100%;
+}
+
+.content .content_header .content_header_left {
+    width: 200px;
+    float: left;
+}
+
+.content .content_header .content_header_right {
+    width: 479px;
+    float: right;
+    font-size: 10px;
+}
+
+.content_header_right h3 {
+    border-bottom: 1px dotted grey;
+    background-color: #f1ffe6;
+}
+
+.content .content_header .content_header_right .personal_table tr td:first-child {
+    font-weight: bold;
+}
+
+.content h2 {
+    font-size: 16px;
+    margin-top: 0px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-bottom: 1px dotted green;
+    padding-bottom: 10px;
+}
+
+.action_table tr td {
+    border-bottom: 1px dotted grey;
+    padding: 7px 0px 7px 0px;
+}
+
+.clear {
+    clear: both;
+    height: 20px;
+}
+
+.footer {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: #008200;
+}
+
+.message_avatar {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+
+}
+
+.messages {
+    font-size: 11px;
+}
+
+.messages h2 {
+    font-size: 16px;
+    margin-top: 0px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    border-bottom: 1px dotted green;
+    padding-bottom: 10px;
+}
+
+.messages table tr td {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dotted grey;
+
+}
+
+.messages table tr:nth-child(odd) td {
+    background-color: #f1ffe6;
+}
+
+.messages table tr:hover td {
+    background-color: #90ea85;
+}
+
+.messages table tr td:first-child {
+    text-align: left;
+    width: 210px;
+    vertical-align: middle;
+}
+
+.messages table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.messages table tr td .message_user_info {
+    margin-left: 10px;
+    float: left;
+}
+
+.messages .messages_dialog_ancer tr td:first-child {
+    width: 80px;
+}
+
+.messages table tr td:last-child a {
+    color: grey;
+    text-decoration: none;
+}
+
+.messages table tr td:last-child a:hover {
+    color: #141414;
+}
+
+.messages .messages_dialog_ancer textarea {
+    height: 100px;
+    width: 457px;
+}
+
+input[type=submit] {
+    background-color: #69B35E;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.reg_form {
+    font-size: 12px;
+}
+.reg_form table{
+    width: 100%;
+}
+.reg_form table tr td{
+    position: relative;
+}
+
+.rivers_list {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px grey;
+    width: 153px;
+    max-height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 3px;
+    overflow-y: auto;
+    z-index: 500;
+    margin-bottom: 2px;
+}
+.rivers_list div:hover{
+    background-color: #69B35E;
+    color: #ffffff;
+}
+
+.rivers_list div {
+    cursor: pointer;
+}
+
+.submenu {
+    /*border: 1px solid orange;*/
+
+
+}
